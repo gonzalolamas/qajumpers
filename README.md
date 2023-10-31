@@ -29,5 +29,10 @@ Creo el fichero "1.txt" con "touch".
 -Crear una rama v0.2
 
 utilice git branch v0.2 y para mover a esa rama usé git checkout v0.2. 
-Añadí fichero "2.txt" en la rama v0.2 con "touch v0.2.txt" y para subir a remoto: git add ., git commit -m "creación rama remota" y por ultimo git push origin v0.2
+Añadí fichero "2.txt" en la rama v0.2 con "touch v0.2.txt" y para subir a remoto: git add ., git commit -m "creación rama remota" y por ultimo git push origin v0.2.
+
+- Merge directo
+
+me posicioné en main con "git checkout main", y realice el merge con "git merge v0.2". Luego, lo subí a remoto para ver el cambio con: git add ., git commit -m "git merge" y git push origin main.
+
 
