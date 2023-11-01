@@ -35,4 +35,7 @@ Añadí fichero "2.txt" en la rama v0.2 con "touch v0.2.txt" y para subir a remo
 
 me posicioné en main con "git checkout main", y realice el merge con "git merge v0.2". Luego, lo subí a remoto para ver el cambio con: git add ., git commit -m "git merge" y git push origin main.
 
+- Merge con conflicto
 
+En rama main pongo Hola accediendo al archivo 1.txt y lo escribo. En git bash utilizo git add ., git commit -m "hola en fichero 1.txt" y hago git push -u origin main. 
+Git checkout para moverme a la rama v0.2
