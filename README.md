@@ -52,21 +52,25 @@ Vuelvo a la rama main y hago git merge v0.2.
 ------
 
 - Listado de ramas
+  
 Hago git branch --merged para ver las ramas fusionadas y git branch --no-merged para ver las ramas no fusionadas.
 
 ------
 
 - Arreglar conflicto
+  
 Primero corrijo en los cambios en el txt y luego use "git add ." para guardar cambios, y git commit -m "conflicto resuelto" para que se resuelva el problema.
 
 ------
 
 -Borrar rama
+
 git branch -D v0.2 para borrar la rama v0.2
 
 ------
 
 -Listado de cambios
+
 use git log --oneline --decorate --all --graph
 
 *   e6faf9b (HEAD -> main, origin/main, origin/HEAD) conflicto solucionado
