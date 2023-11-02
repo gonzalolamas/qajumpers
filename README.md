@@ -28,14 +28,20 @@ privada/
 
 Creo el fichero "1.txt" con "touch". 
 
+------
+
 -Crear una rama v0.2
 
 utilice git branch v0.2 y para mover a esa rama usé git checkout v0.2. 
 Añadí fichero "2.txt" en la rama v0.2 con "touch v0.2.txt" y para subir a remoto: git add ., git commit -m "creación rama remota" y por ultimo git push origin v0.2.
 
+------
+
 - Merge directo
 
 me posicioné en main con "git checkout main", y realice el merge con "git merge v0.2". Luego, lo subí a remoto para ver el cambio con: git add ., git commit -m "git merge" y git push origin main.
+
+------
 
 - Merge con conflicto
 
@@ -43,14 +49,22 @@ En rama main pongo Hola accediendo al archivo 1.txt y lo escribo. En git bash ut
 Git checkout para moverme a la rama v0.2 y coloco "Adios" en el fichero 1.txt.
 Vuelvo a la rama main y hago git merge v0.2.
 
+------
+
 - Listado de ramas
 Hago git branch --merged para ver las ramas fusionadas y git branch --no-merged para ver las ramas no fusionadas.
+
+------
 
 - Arreglar conflicto
 Primero corrijo en los cambios en el txt y luego use "git add ." para guardar cambios, y git commit -m "conflicto resuelto" para que se resuelva el problema.
 
+------
+
 -Borrar rama
 git branch -D v0.2 para borrar la rama v0.2
+
+------
 
 -Listado de cambios
 use git log --oneline --decorate --all --graph
