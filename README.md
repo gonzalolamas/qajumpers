@@ -71,3 +71,10 @@ archivo en gitignore
 * 88d4dc8 agregando captura de imagen de primeros pasos
 * 691240c commit inicial
 
+-Crear una tabla
+
+| Nombre  | Github |
+| ------------- | ------------- |
+| Aixa Cobos  | [GitHub perfil](https://pages.github.com/)  |
+| Leila Balmaceda  | [GitHub perfil](https://pages.github.com/)  |
+| Rebeca Barrios | [GitHub perfil](https://pages.github.com/)  |
