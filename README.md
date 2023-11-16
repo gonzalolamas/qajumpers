@@ -95,6 +95,6 @@ realice la creación de la tabla en el readme con ayuda de documentación, a tra
 
 | Nombre  | Github |
 | ------------- | ------------- |
-| Luciano Verchelli | [GitHub perfil]([https://pages.github.com/](https://github.com/LucianoVerchelli))  |
+| Luciano Verchelli | [GitHub perfil]([https://pages.github.com/](https://github.com/LucianoVerchelli)  |
 | Aixa Cobos  | [GitHub perfil](https://pages.github.com/)  |
 | Leila Balmaceda  | [GitHub perfil](https://pages.github.com/)  |
