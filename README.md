@@ -91,8 +91,10 @@ archivo en gitignore
 
 -Crear una tabla
 
+realice la creación de la tabla en el readme con ayuda de documentación, a traves de las líneas se genera un recuadro.
+
 | Nombre  | Github |
 | ------------- | ------------- |
+| Luciano Verchelli | [GitHub perfil]([https://pages.github.com/](https://github.com/LucianoVerchelli))  |
 | Aixa Cobos  | [GitHub perfil](https://pages.github.com/)  |
 | Leila Balmaceda  | [GitHub perfil](https://pages.github.com/)  |
-| Rebeca Barrios | [GitHub perfil](https://pages.github.com/)  |
